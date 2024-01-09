@@ -248,11 +248,13 @@ button {
 }
 
 .footerhero {
+    padding: 120px 0px;
     background-color: #070211;
-    height: 550px;
+    height: 450px;
 }
 .footer-conteiner{
     display: flex;
+    padding: 50px 0;
 }
 
 .left-column {
@@ -269,5 +271,17 @@ button {
     line-height: 40px;
 }
 .footerlink{
-    margin-top: 100px;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.devider{
+    border: 1px solid #444;
+}
+
+.contact{
+    display: flex;
+}
+.contact img{
+    padding-right: 10px;
 }
